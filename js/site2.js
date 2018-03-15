@@ -15,7 +15,7 @@
                 }
             });
             $(document).on('click', 'span', function (e) {
-                 e.preventDefault();
+                 // e.preventDefault();
                 $(this).parent().remove();
             });
              $(document).on('click', '#checkbox', function (e) {
